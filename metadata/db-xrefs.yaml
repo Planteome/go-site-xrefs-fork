@@ -55,6 +55,16 @@
       url_syntax: http://www.plasmodb.org/gene/[example_id]
       example_id: ApiDB_PlasmoDB:PF11_0344
       example_url: https://plasmodb.org/plasmo/app/record/gene/PF11_0344
+- database: APSNET
+  name: APSNET Common Names of Plant Diseases
+  generic_urls:
+    - http://www.mobot.org/mobot/research/apweb/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://www.apsnet.org/publications/commonnames/Pages/[example_id].aspx
+      example_id: APSNET:AfricanDaisy
+      example_url: http://www.apsnet.org/publications/commonnames/Pages/AfricanDaisy.aspx
 - database: APweb
   name: Angiosperm Phylogeny Website
   generic_urls:
@@ -65,6 +75,16 @@
       url_syntax: http://www.mobot.org/mobot/research/apweb/top/glossarya_h.html
       example_id: APweb:Glossary
       example_url: http://www.mobot.org/mobot/research/apweb/top/glossarya_h.html
+- database: AraCyc
+  name: AraCyc metabolic pathway database for Arabidopsis thaliana
+  generic_urls:
+    - http://www.arabidopsis.org/biocyc/index.jsp
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://www.arabidopsis.org:1555/ARA/NEW-IMAGE?type=NIL&object=[example_id]
+      example_id: AraCyc:PWYQT-62
+      example_url: http://www.arabidopsis.org:1555/ARA/NEW-IMAGE?type=NIL&object=PWYQT-62
 - database: ARUK-UCL
   name: Alzheimers Research Gene Ontology Initiative
   generic_urls:
@@ -194,6 +214,35 @@
       url_syntax: http://purl.obolibrary.org/obo/BTO_[example_id]
       example_id: BTO_0002164
       example_url: http://purl.obolibrary.org/obo/BTO_0002164
+- database: Broad
+  name: Broad Institute
+  generic_urls:
+    - http://www.broad.mit.edu/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+- database: Broad_MGG
+  name: Magnaporthe grisea Database
+  description: Magnaporthe grisea Database at the Broad Institute
+  generic_urls:
+    - http://www.broad.mit.edu/annotation/genome/magnaporthe_grisea/Home.html
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://www.broad.mit.edu/annotation/genome/magnaporthe_grisea/GeneLocus.html?sp=S[example_id]
+      example_id: Broad_MGG:MGG_05132.5
+      example_url: http://www.broad.mit.edu/annotation/genome/magnaporthe_grisea/GeneLocus.html?sp=SMGG_05132
+- database: Broad_NEUROSPORA
+  name: Neurospora crassa Database
+  description: Neurospora crassa database at the Broad Institute
+  generic_urls:
+    - http://www.broadinstitute.org/annotation/genome/neurospora/MultiHome.html
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://www.broadinstitute.org/annotation/genome/neurospora/GeneDetails.html?sp=S[example_id]
+      example_id: BROAD_NEUROSPORA:7000007580576824
+      example_url: http://www.broadinstitute.org/annotation/genome/neurospora/GeneDetails.html?sp=S7000007580576824
 - database: CACAO
   name: Community Assessment of Community Annotation with Ontologies
   description: The Community Assessment of Community Annotation with Ontologies (CACAO) is a project to do large-scale manual community annotation of gene function using the Gene Ontology as a multi-institution student competition.
@@ -453,6 +502,16 @@
       url_syntax: https://mips.helmholtz-muenchen.de/corum/?id=[example_id]
       example_id: CORUM:837
       example_url: https://mips.helmholtz-muenchen.de/corum/?id=837
+- database: cosmoss_PpV1.2
+  name: plantco.de|cosmoss.org
+  generic_urls:
+    - https://www.cosmoss.org/annotation/genonaut
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: https://www.cosmoss.org/annotation/genonaut?accession=[example_id]&version=V1.2
+      example_id: cosmoss_PpV1.2:Pp1s47_77V2.1
+      example_url: https://www.cosmoss.org/annotation/genonaut?accession=Pp1s53_22V2.1&version=V1.2
 - database: cribi_vitis
   name: Vitis CRIBI database
   generic_urls:
@@ -564,6 +623,17 @@
       url_syntax: https://www.york.ac.uk/res/thomas/Gene.cfm?&recordID=[example_id]
       example_id: EchoBASE:EB0231
       example_url: https://www.york.ac.uk/res/thomas/Gene.cfm?&recordID=EB0231
+- database: ECK
+  name: EcoGene Database of Escherichia coli Sequence and Function
+  generic_urls:
+    - http://www.ecogene.org/
+  entity_types:
+    - type_name: gene
+      type_id: SO:0000704
+      id_syntax: ECK[0-9]{4}
+      url_syntax: http://www.ecogene.org/geneInfo.php?eck_id=[example_id]
+      example_id: ECK:ECK3746
+      example_url: http://www.ecogene.org/geneInfo.php?eck_id=ECK3746
 - database: ECO
   name: Evidence Code Ontology
   rdf_uri_prefix: http://purl.obolibrary.org/obo/ECO_
@@ -599,6 +669,27 @@
       url_syntax: http://biocyc.org/ECOLI/reference.html?type=CITATION-FRAME&object=[example_id]
       example_id: EcoCyc_REF:COLISALII
       example_url: http://biocyc.org/ECOLI/reference.html?type=CITATION-FRAME&object=COLISALII
+- database: ECOGENE
+  name: EcoGene Database of Escherichia coli Sequence and Function
+  synonyms:
+    - EcoGene
+  generic_urls:
+    - http://www.ecogene.org/
+  entity_types:
+    - type_name: gene
+      type_id: SO:0000704
+      id_syntax: EG[0-9]{5}
+      url_syntax: http://www.ecogene.org/geneInfo.php?eg_id=[example_id]
+      example_id: ECOGENE:EG10818
+      example_url: http://www.ecogene.org/geneInfo.php?eg_id=EG10818
+- database: ECOGENE_G
+  name: EcoGene Database of Escherichia coli Sequence and Function
+  generic_urls:
+    - http://www.ecogene.org/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      example_id: ECOGENE_G:deoC
 - database: EcoliWiki
   name: EcoliWiki from EcoliHub
   description: EcoliHub\'s subsystem for community annotation of E. coli K-12
@@ -1289,6 +1380,16 @@
       url_syntax: https://www.worldcat.org/search?q=bn%3A[example_id]
       example_id: ISBN:0781702534
       example_url: https://www.worldcat.org/search?q=bn%3A0781702534
+- database: ISRR
+  name: International Society for Root Research
+  generic_urls:
+    - http://www.rootresearch.org/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://wiki.plantontology.org/index.php/ISRR_references
+      example_id: ISRR:Richard Zobel
+      example_url: http://wiki.plantontology.org/index.php/ISRR_references
 - database: ISSN
   name: International Standard Serial Number
   generic_urls:
@@ -1334,6 +1435,92 @@
       url_syntax: http://wiki.plantontology.org/index.php/PO_REF:00008
       example_id: Jaiswal_Lab:gene00002
       example_url: http://wiki.plantontology.org/index.php/PO_REF:00008
+- database: JCVI
+  name: J. Craig Venter Institute
+  synonyms:
+    - TIGR
+  generic_urls:
+    - http://www.jcvi.org/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+- database: JCVI_CMR
+  name: EGAD database at the J. Craig Venter Institute
+  synonyms:
+    - TIGR_CMR
+    - TIGR_EGAD
+  generic_urls:
+    - http://cmr.jcvi.org/
+  entity_types:
+    - type_name: gene
+      type_id: SO:0000704
+      id_syntax: '[A-Z][A-Za-z0-9_]+(\.[0-9])?'
+      url_syntax: http://cmr.jcvi.org/cgi-bin/CMR/shared/GenePage.cgi?locus=[example_id]
+      example_id: JCVI_CMR:VCA0557
+      example_url: http://cmr.jcvi.org/cgi-bin/CMR/shared/GenePage.cgi?locus=VCA0557
+    - type_name: protein
+      type_id: PR:000000001
+      id_syntax: '[A-Z][A-Za-z0-9_]+(\.[0-9])?'
+      url_syntax: http://cmr.jcvi.org/cgi-bin/CMR/shared/GenePage.cgi?locus=[example_id]
+      example_id: JCVI_CMR:VCA0557
+      example_url: http://cmr.jcvi.org/cgi-bin/CMR/shared/GenePage.cgi?locus=VCA0557
+- database: JCVI_EGAD
+  name: JCVI CMR Egad
+  generic_urls:
+    - http://cmr.jcvi.org/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://cmr.jcvi.org/cgi-bin/CMR/EgadSearch.cgi?search_string=[example_id]
+      example_id: JCVI_EGAD:74462
+      example_url: http://cmr.jcvi.org/cgi-bin/CMR/EgadSearch.cgi?search_string=74462
+- database: JCVI_GenProp
+  name: Genome Properties database at the J. Craig Venter Institute
+  synonyms:
+    - TIGR_GenProp
+  generic_urls:
+    - http://cmr.jcvi.org/
+  entity_types:
+    - type_name: biological_process
+      type_id: GO:0008150
+      id_syntax: GenProp[0-9]{4}
+      url_syntax: http://cmr.jcvi.org/cgi-bin/CMR/shared/GenomePropDefinition.cgi?prop_acc=[example_id]
+      example_id: JCVI_GenProp:GenProp0120
+      example_url: http://cmr.jcvi.org/cgi-bin/CMR/shared/GenomePropDefinition.cgi?prop_acc=GenProp0120
+- database: JCVI_Medtr
+  name: Medicago truncatula genome database at the J. Craig Venter Institute
+  generic_urls:
+    - http://medicago.jcvi.org/cgi-bin/medicago/overview.cgi
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://medicago.jcvi.org/cgi-bin/medicago/search/shared/ORF_infopage.cgi?orf=[example_id]
+      example_id: JCVI_Medtr:Medtr5g024510
+      example_url: http://medicago.jcvi.org/cgi-bin/medicago/search/shared/ORF_infopage.cgi?orf=Medtr5g024510
+- database: JCVI_REF
+  name: J. Craig Venter Institute
+  synonyms:
+    - TIGR_REF
+  generic_urls:
+    - http://cmr.jcvi.org/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      example_id: JCVI_REF:GO_ref
+      example_url: http://cmr.jcvi.org/CMR/AnnotationSops.shtml
+- database: JCVI_TIGRFAMS
+  name: TIGRFAMs HMM collection at the J. Craig Venter Institute
+  synonyms:
+    - TIGR_TIGRFAMS
+  generic_urls:
+    - http://search.jcvi.org/
+  entity_types:
+    - type_name: polypeptide region
+      type_id: SO:0000839
+      id_syntax: TIGR[0-9]{5}
+      url_syntax: http://search.jcvi.org/search?p&q=[example_id]
+      example_id: JCVI_TIGRFAMS:TIGR00254
+      example_url: http://search.jcvi.org/search?p&q=TIGR00254
 - database: TIGRFAMS
   name: TIGRFAMs HMM collection at the J. Craig Venter Institute
   synonyms:
@@ -1420,6 +1607,16 @@
       url_syntax: https://www.dkfz.de/en/mga/Groups/LIFEdb-Database.html?ID=[example_id]
       example_id: LIFEdb:DKFZp564O1716
       example_url: https://www.dkfz.de/en/mga/Groups/LIFEdb-Database.html?ID=DKFZp564O1716
+- database: LIS
+  name: Legume Information System
+  generic_urls:
+    - http://legumeinfo.org/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://legumeinfo.org/feature/Medicago/truncatula/gene/[example_id].JCVIMt4.0v1
+      example_id: LIS:Medtr5g030920
+      example_url: http://legumeinfo.org/feature/Medicago/truncatula/gene/Medtr5g030920.JCVIMt4.0v1
 - database: MA
   name: Adult Mouse Anatomical Dictionary
   description: Adult Mouse Anatomical Dictionary; part of Gene Expression Database
@@ -1697,6 +1894,16 @@
       url_syntax: http://www.neurolex.org/wiki/[example_id]
       example_id: NIF_Subcellular:sao1186862860
       example_url: http://www.neurolex.org/wiki/sao1770195789
+- database: NMPDR
+  name: National Microbial Pathogen Data Resource
+  generic_urls:
+    - http://www.nmpdr.org
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://www.nmpdr.org/linkin.cgi?id=[example_id]
+      example_id: NMPDR:fig|306254.1.peg.183
+      example_url: http://www.nmpdr.org/linkin.cgi?id=fig|306254.1.peg.183
 - database: NTNU_SB
   name: Norwegian University of Science and Technology, Systems Biology team
   generic_urls:
@@ -1763,6 +1970,56 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
+- database: PAINT_REF
+  name: Phylogenetic Annotation INference Tool References
+  generic_urls:
+    - http://www.pantherdb.org/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      id_syntax: '[0-9]{5}'
+      url_syntax: http://www.pantherdb.org/panther/lookupId.jsp?id=PTHR[example_id]
+      example_id: PAINT_REF:23266
+      example_url: http://www.pantherdb.org/panther/lookupId.jsp?id=PTHR23266
+- database: PAMGO
+  name: Plant-Associated Microbe Gene Ontology Interest Group
+  generic_urls:
+    - http://pamgo.vbi.vt.edu/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+- database: PAMGO_GAT
+  name: Genome Annotation Tool (Agrobacterium tumefaciens C58); PAMGO Interest Group
+  generic_urls:
+    - http://agro.vbi.vt.edu/public/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://agro.vbi.vt.edu/public/servlet/GeneEdit?&Search=Search&level=2&genename=[example_id]
+      example_id: PAMGO_GAT:Atu0001
+      example_url: http://agro.vbi.vt.edu/public/servlet/GeneEdit?&Search=Search&level=2&genename=atu0001
+- database: PAMGO_MGG
+  name: Magnaporthe grisea database
+  description: Magnaporthe grisea database at North Carolina State University; member of PAMGO Interest Group
+  generic_urls:
+    - http://scotland.fgl.ncsu.edu/smeng/GoAnnotationMagnaporthegrisea.html
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://scotland.fgl.ncsu.edu/cgi-bin/adHocQuery.cgi?adHocQuery_dbName=smeng_goannotation&Action=Data&QueryName=Functional+Categorization+of+MGG+GO+Annotation&P_KeyWord=[example_id]
+      example_id: PAMGO_MGG:MGG_05132
+      example_url: http://scotland.fgl.ncsu.edu/cgi-bin/adHocQuery.cgi?adHocQuery_dbName=smeng_goannotation&Action=Data&QueryName=Functional+Categorization+of+MGG+GO+Annotation&P_KeyWord=MGG_05132
+- database: PAMGO_VMD
+  name: Virginia Bioinformatics Institute Microbial Database
+  description: Virginia Bioinformatics Institute Microbial Database; member of PAMGO Interest Group
+  generic_urls:
+    - http://phytophthora.vbi.vt.edu
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://vmd.vbi.vt.edu/cgi-bin/browse/go_detail.cgi?gene_id=[example_id]
+      example_id: PAMGO_VMD:109198
+      example_url: http://vmd.vbi.vt.edu/cgi-bin/browse/go_detail.cgi?gene_id=109198
 - database: PANTHER
   name: Protein ANalysis THrough Evolutionary Relationships Classification System
   rdf_uri_prefix: https://registry.identifiers.org/registry/panther.family
@@ -1880,6 +2137,16 @@
       url_syntax: http://pir.georgetown.edu/cgi-bin/ipcSF?id=[example_id]
       example_id: PIRSF:SF002327
       example_url: http://pir.georgetown.edu/cgi-bin/ipcSF?id=SF002327
+- database: Planteome_gene
+  name: Generic planteome genes without homes
+  generic_urls:
+    - http://www.google.com
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: https://www.google.com/search?q=[example_id]
+      example_id: Planteome_gene:AC148152.3_FGT008
+      example_url: https://www.google.com/search?q=AC148152.3_FGT008
 - database: PlantSystematics_image_archive
   name: PlantSystematics.org
   generic_urls:
@@ -2011,7 +2278,18 @@
       id_syntax: PR[0-9]{5}
       url_syntax: http://www.bioinf.manchester.ac.uk/cgi-bin/dbbrowser/sprint/searchprintss.cgi?display_opts=Prints&category=None&queryform=false&regexpr=off&prints_accn=[example_id]
       example_id: PRINTS:PR00025
-      example_url: http://www.bioinf.manchester.ac.uk/cgi-bin/dbbrowser/sprint/searchprintss.cgi?display_opts=Prints&category=None&queryform=false&regexpr=off&prints_accn=PR00025
+      example_url: http://www.bioinf.manchester.ac.uk/cgi-bin/dbbrowser/sprint/searchprintss.cgi?display_opts=Prints&category=None&queryform=false&regexpr=off&prints_accn=PR0002
+- database: ProDom
+  name: ProDom protein domain families
+  description: ProDom protein domain families automatically generated from UniProtKB
+  generic_urls:
+    - http://prodom.prabi.fr/prodom/current/html/home.php
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://prodom.prabi.fr/prodom/current/cgi-bin/request.pl?question=DBEN&query=[example_id]
+      example_id: ProDom:PD000001
+      example_url: http://prodom.prabi.fr/prodom/current/cgi-bin/request.pl?question=DBEN&query=PD000001
 - database: Prosite
   name: Prosite database of protein families and domains
   generic_urls:
@@ -2437,6 +2715,26 @@
       url_syntax: http://supfam.org/scop/[example_id]
       example_id: SUPERFAMILY:56994
       example_url: http://supfam.org/scop/56994
+- database: SWALL
+  name: ExPASY Bioinformatics Resource Portal
+  generic_urls:
+    - http://ca.expasy.org
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://ca.expasy.org/cgi-bin/sprot-search-de?S=1&amp;T=1&amp;SEARCH=[example_id]
+      example_id: SWALL:12345
+      example_url: http://ca.expasy.org/cgi-bin/sprot-search-de?S=1&amp;T=1&amp;SEARCH=12345
+- database: Swiss-Prot
+  name: Swiss-Prot protein database.
+  generic_urls:
+    - http://ca.expasy.org/sprot/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://www.ebi.uniprot.org/uniprot-srv/uniProtView.do?proteinac=[example_id]
+      example_id: Swiss-Prot:P45867
+      example_url: http://www.ebi.uniprot.org/uniprot-srv/uniProtView.do?proteinac=P45867
 - database: SynGO
   name: The Synapse Gene Ontology and Annotation Initiative
   generic_urls:
@@ -2546,6 +2844,20 @@
       url_syntax: https://github.com/Planteome/plant-trait-ontology/issues/[example_id]
       example_id: TO_GIT:381
       example_url: https://github.com/Planteome/plant-trait-ontology/issues/381
+- database: TR
+  name: TREMBL
+  synonyms:
+    - SPTREMBL
+    - TREMBL
+    - TrEMBL
+  generic_urls:
+    - http://www.ebi.ac.uk/swissprot/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://srs.ebi.ac.uk/srs6bin/cgi-bin/wgetz?-e+[SWALL-acc:[example_id]]
+      example_id: TrEMBL:Q00177
+      example_url: http://srs.ebi.ac.uk/srs6bin/cgi-bin/wgetz?-e+[SWALL-acc:Q00177]
 - database: TRANSFAC
   name: TRANSFAC database of eukaryotic transcription factors
   generic_urls:
@@ -2628,6 +2940,17 @@
       url_syntax: http://eawag-bbd.ethz.ch/servlets/rule.jsp?rule=[example_id]
       example_id: UM-BBD_ruleID:bt0330
       example_url: http://eawag-bbd.ethz.ch/servlets/rule.jsp?rule=bt0330
+- database: UniGene
+  name: UniGene
+  description: NCBI transcript cluster database, organized by transcriptome. Each UniGene entry is a set of transcript sequences that appear to come from the same transcription locus (gene or expressed pseudogene).
+  generic_urls:
+    - http://www.ncbi.nlm.nih.gov/UniGene
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://www.ncbi.nlm.nih.gov/UniGene/clust.cgi?ORG=[organism_abbreviation]&CID=[cluster_id]
+      example_id: UniGene:Hs.212293
+      example_url: http://www.ncbi.nlm.nih.gov/UniGene/clust.cgi?ORG=Hs&CID=212293
 - database: UniParc
   name: UniProt Archive
   description: A non-redundant archive of protein sequences extracted from Swiss-Prot, TrEMBL, PIR-PSD, EMBL, Ensembl, IPI, PDB, RefSeq, FlyBase, WormBase, European Patent Office, United States Patent and Trademark Office, and Japanese Patent Office
@@ -2708,6 +3031,26 @@
       id_syntax: UR[0-9]{9}|MF_[0-9]{5}|PIRNR[0-9]{6}|PRU[0-9]{5}|RU[0-9]{6}
       example_id: UniRule:UR000107224
       example_url: https://www.uniprot.org/unirule/UR000107224
+- database: VBRC
+  name: Viral Bioinformatics Resource Center
+  generic_urls:
+    - http://vbrc.org
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://vbrc.org/query.asp?web_id=VBRC:[example_id]
+      example_id: VBRC:F35742
+      example_url: http://vbrc.org/query.asp?web_id=VBRC:F35742
+- database: VMD
+  name: Virginia Bioinformatics Institute Microbial Database
+  generic_urls:
+    - http://phytophthora.vbi.vt.edu
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://vmd.vbi.vt.edu/cgi-bin/browse/browserDetail_new.cgi?gene_id=[example_id]
+      example_id: VMD:109198
+      example_url: http://vmd.vbi.vt.edu/cgi-bin/browse/browserDetail_new.cgi?gene_id=109198
 - database: VZ
   name: ViralZone
   generic_urls:
