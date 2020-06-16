@@ -825,9 +825,9 @@
   entity_types:
     - type_name: gene
       type_id: SO:0000704
-      url_syntax: http://www.ensemblgenomes.org/id/[example_id]
+      url_syntax: http://plants.ensembl.org/Multi/Search/Results?species=all;idx=;q=[example_id];site=ensemblunit
       example_id: EnsemblPlants:LOC_Os01g22954
-      example_url: http://www.ensemblgenomes.org/id/LOC_Os01g22954
+      example_url: http://plants.ensembl.org/Multi/Search/Results?species=all;idx=;q=ESW29762;site=ensemblunit
 - database: EnsemblProtists
   name: Ensembl Protists, the Ensembl database for accessing genome-scale data from protists.
   generic_urls:
