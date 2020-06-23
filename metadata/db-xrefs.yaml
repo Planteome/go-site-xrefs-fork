@@ -2116,6 +2116,16 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
+- database: Phytozome
+  name: Phytozome
+  generic_urls:
+    - https://phytozome.jgi.doe.gov
+  entity_types:
+    - type_name: protein
+      type_id: BET:0000000
+      url_syntax: https://phytozome.jgi.doe.gov/pz/portal.html#!results?search=0&crown=1&star=1&method=0&offset=0searchText=[example_id]
+      example_id: Phytozome:Carubv10001290m
+      example_url: https://phytozome.jgi.doe.gov/pz/portal.html#!results?search=0&crown=1&star=1&method=0&offset=0searchText=Carubv10001290m
 - database: PIR
   name: Protein Information Resource
   generic_urls:
