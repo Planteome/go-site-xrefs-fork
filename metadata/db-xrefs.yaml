@@ -539,7 +539,7 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
-      url_syntax: http://cucurbitgenomics.org/feature/gene[example_id]
+      url_syntax: http://cucurbitgenomics.org/feature/gene/[example_id]
       example_id: Cla013087
       example_url: http://cucurbitgenomics.org/feature/gene/Cla013087
 - database: dbSNP
