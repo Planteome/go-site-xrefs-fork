@@ -481,6 +481,16 @@
       url_syntax: https://www.ebi.ac.uk/complexportal/complex/[example_id]
       example_id: ComplexPortal:CPX-2158
       example_url: https://www.ebi.ac.uk/complexportal/complex/CPX-2158
+- database: Congenie
+  name: Congenie
+  generic_urls:
+    - http://congenie.org
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://congenie.org/gene?id=[example_id]
+      example_id: Congenie:MA_71765g0010
+      example_url: http://congenie.org/gene?id=MA_71765g0010
 - database: CORIELL
   name: Coriell Institute for Medical Research
   description: The Coriell Cell Repositories provide essential research reagents to the scientific community by establishing, verifying, maintaining, and distributing cell cultures and DNA derived from cell cultures. These collections, supported by funds from the National Institutes of Health (NIH) and several foundations, are extensively utilized by research scientists around the world.
@@ -522,6 +532,16 @@
       url_syntax: http://genomes.cribi.unipd.it/cgi-bin/pqs2/report.pl?gene_name=[example_id]&release=v1
       example_id: VIT_00s0173g00270
       example_url: http://genomes.cribi.unipd.it/cgi-bin/pqs2/report.pl?gene_name=VIT_00s0173g00270&release=v1
+- database: Cucurbit
+  name: Cucurbit Genomics
+  generic_urls:
+    - http://cucurbitgenomics.org
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://cucurbitgenomics.org/feature/gene[example_id]
+      example_id: Cla013087
+      example_url: http://cucurbitgenomics.org/feature/gene/Cla013087
 - database: dbSNP
   name: NCBI dbSNP
   rdf_uri_prefix: http://identifiers.org/dbsnp/
@@ -1612,11 +1632,21 @@
   generic_urls:
     - http://legumeinfo.org/
   entity_types:
-    - type_name: entity
+    - type_name: Aradu
       type_id: BET:0000000
-      url_syntax: http://legumeinfo.org/feature/Medicago/truncatula/gene/[example_id].JCVIMt4.0v1
+      url_syntax: https://legumeinfo.org/feature/Arachis/duranensis/gene/[example_id]
+      example_id: LIS:Aradu:Aradu.WUP1N
+      example_url: https://legumeinfo.org/feature/Arachis/duranensis/gene/Aradu.WUP1N
+    - type_name: Araip
+      type_id: BET:0000000
+      url_syntax: https://legumeinfo.org/feature/Arachis/ipaensis/gene/[example_id]
       example_id: LIS:Medtr5g030920
-      example_url: http://legumeinfo.org/feature/Medicago/truncatula/gene/Medtr5g030920.JCVIMt4.0v1
+      example_url: https://legumeinfo.org/feature/Arachis/ipaensis/gene/Araip.9F2SW
+    - type_name: Cajca
+      type_id: BET:0000000
+      url_syntax: https://legumeinfo.org/feature/Cajanus/cajan/gene/cajca.ICPL87119.gnm1.ann1.[example_id]
+      example_id: LIS:Medtr5g030920
+      example_url: https://legumeinfo.org/feature/Cajanus/cajan/gene/cajca.ICPL87119.gnm1.ann1.C.cajan_15730
 - database: MA
   name: Adult Mouse Anatomical Dictionary
   description: Adult Mouse Anatomical Dictionary; part of Gene Expression Database
@@ -1834,6 +1864,9 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
+      url_syntax: https://www.ncbi.nlm.nih.gov/protein/[example_id]
+      example_id: NCBI:BAA100446
+      example_url: https://www.ncbi.nlm.nih.gov/protein/BAA10446
 - database: NCBIGene
   name: NCBI Gene
   synonyms:
