@@ -1627,28 +1627,35 @@
       url_syntax: https://www.dkfz.de/en/mga/Groups/LIFEdb-Database.html?ID=[example_id]
       example_id: LIFEdb:DKFZp564O1716
       example_url: https://www.dkfz.de/en/mga/Groups/LIFEdb-Database.html?ID=DKFZp564O1716
-- database: LIS
+- database: LIS_Aradu
   name: Legume Information System
   generic_urls:
     - http://legumeinfo.org/
   entity_types:
-    - type_name: Aradu
+    - type_name: entity
       type_id: BET:0000000
-      id_syntax: Aradu:[A-Za-z0-9.]{3,12}
       url_syntax: https://legumeinfo.org/feature/Arachis/duranensis/gene/[example_id]
-      example_id: LIS:Aradu:Aradu.WUP1N
+      example_id: Aradu.WUP1N
       example_url: https://legumeinfo.org/feature/Arachis/duranensis/gene/Aradu.WUP1N
-    - type_name: Araip
+- database: LIS_Araip
+  name: Legume Information System
+  generic_urls:
+    - http://legumeinfo.org/
+  entity_types:
+    - type_name: entity
       type_id: BET:0000000
-      id_syntax: Araip:[A-Za-z0-9.]{3,12}
       url_syntax: https://legumeinfo.org/feature/Arachis/ipaensis/gene/[example_id]
-      example_id: LIS:Medtr5g030920
+      example_id: Araip.9F2SW
       example_url: https://legumeinfo.org/feature/Arachis/ipaensis/gene/Araip.9F2SW
-    - type_name: Cajca
+- database: LIS_Cajca
+  name: Legume Information System
+  generic_urls:
+    - http://legumeinfo.org/
+  entity_types:
+    - type_name: entity
       type_id: BET:0000000
-      id_syntax: Cajca:[A-Za-z0-9.]{3,12}
       url_syntax: https://legumeinfo.org/feature/Cajanus/cajan/gene/cajca.ICPL87119.gnm1.ann1.[example_id]
-      example_id: LIS:Medtr5g030920
+      example_id: C.cajan_15730
       example_url: https://legumeinfo.org/feature/Cajanus/cajan/gene/cajca.ICPL87119.gnm1.ann1.C.cajan_15730
 - database: MA
   name: Adult Mouse Anatomical Dictionary
