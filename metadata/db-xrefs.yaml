@@ -328,6 +328,16 @@
       url_syntax: http://www.cazy.org/[example_id].html
       example_id: CAZY:PL11
       example_url: http://www.cazy.org/PL11.html
+- database: CCBR
+  name: Cannabis Genome Browser
+  generic_urls:
+    - http://genome.ccbr.utoronto.ca/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: http://genome.ccbr.utoronto.ca/cgi-bin/hgTracks?hgHubConnect.destUrl=..%2Fcgi-bin%2FhgTracks&clade=plant&org=C.+sativa&db=canSat3&position=[example_id]
+      example_id: CCBR:PK03997.1
+      example_url: http://genome.ccbr.utoronto.ca/cgi-bin/hgTracks?hgHubConnect.destUrl=..%2Fcgi-bin%2FhgTracks&clade=plant&org=C.+sativa&db=canSat3&position=PK03997.1
 - database: DTU
   name:  DTU Health Tech Services
   description: Formerly CBS (Center for Biological Sequence Analysis)
@@ -2197,9 +2207,9 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
-      url_syntax: https://www.google.com/search?q=[example_id]
+      url_syntax: http://planteome.org/planteome_dbxrefs
       example_id: Planteome_gene:AC148152.3_FGT008
-      example_url: https://www.google.com/search?q=AC148152.3_FGT008
+      example_url: http://planteome.org/planteome_dbxrefs
 - database: PlantSystematics_image_archive
   name: PlantSystematics.org
   generic_urls:
