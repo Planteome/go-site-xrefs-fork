@@ -436,6 +436,16 @@
       type_id: BET:0000000
       example_id: CO_125:0000002
       example_url: http://www.cropontology.org/ontology/CO_125:0000000
+- database: Coffee-genome
+  name: Coffee Genome Hub
+  generic_urls:
+    - https://coffee-genome.org
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: https://coffee-genome.org/[example_id]
+      example_id: Coffee-genome:Cc05_g10470
+      example_url: https://coffee-genome.org/Cc05_g10470
 - database: COG
   name: NCBI Clusters of Orthologous Groups
   generic_urls:
