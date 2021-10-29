@@ -1877,9 +1877,9 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
-      url_syntax: http://seeds.nottingham.ac.uk/NASC/stockatidb.lasso?code=[example_id]
+      url_syntax: http://arabidopsis.info/StockInfo?NASC_id=[example_id]
       example_id: NASC_code:N3371
-      example_url: http://seeds.nottingham.ac.uk/NASC/stockatidb.lasso?code=N3371
+      example_url: http://arabidopsis.info/StockInfo?NASC_id=N3371
 - database: NC-IUBMB
   name: Nomenclature Committee of the International Union of Biochemistry and Molecular Biology
   generic_urls:
