@@ -2747,6 +2747,17 @@
       url_syntax: http://www.sequenceontology.org/browser/current_svn/term/SO:[example_id]
       example_id: SO:0000195
       example_url: http://www.sequenceontology.org/browser/current_svn/term/SO:0001850
+- database: Sorghum_QTL_Atlas
+  name: Sorghum QTL Atlas
+  description: A resource for searching and comparing and GWAS studies
+  generic_urls:
+    - https://aussorgm.org.au/
+  entity_types:
+    - type_name: QTL
+      type_id: BET:0000000
+      url_syntax:  https://aussorgm.org.au/sorghum-qtl-atlas/qtl-details/?number=[example_id]
+      example_id: Sorghum_QTL_Atlas:1704
+      example_url:  https://aussorgm.org.au/sorghum-qtl-atlas/qtl-details/?number=1704
 - database: Soy_gene
   name: SoyBase
   generic_urls:
@@ -3315,14 +3326,3 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000 
-- database: Sorghum QTL Atlas
-  name: Sorghum QTL Atlas
-  description: A resource for searching and comparing and GWAS studies
-  generic_urls:
-    - https://aussorgm.org.au/
-  entity_types:
-    - type_name: QTL
-      type_id: BET:0000000
-      url_syntax:  https://aussorgm.org.au/sorghum-qtl-atlas/qtl-details/?number=[example_id]
-      example_id: Sorghum_QTL_Atlas:1704
-      example_url:  https://aussorgm.org.au/sorghum-qtl-atlas/qtl-details/?number=1704
