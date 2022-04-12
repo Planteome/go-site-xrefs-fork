@@ -2112,6 +2112,8 @@
       type_id: BET:0000000
       example_id: PATO:0001420
       example_url: http://purl.obolibrary.org/obo/PATO_0001420
+      id_syntax: '[0-9]{7}'
+      url_syntax: http://purl.obolibrary.org/obo/PATO_[example_id]
 - database: PATRIC
   name: PathoSystems Resource Integration Center
   description: PathoSystems Resource Integration Center at the Virginia Bioinformatics Institute
