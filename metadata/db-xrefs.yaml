@@ -1,4 +1,4 @@
-# Metadata on databases and database prefixes of relevances to the GOC
+# Metadata on databases and database prefixes of relevances to Planteome ontologies
 # See the README.md in this directory for more details.
 #
 - database: AgBase
@@ -278,11 +278,13 @@
   description: CAS REGISTRY is the most authoritative collection of disclosed chemical substance information, containing more than 54 million organic and inorganic substances and 62 million sequences. CAS REGISTRY covers substances identified from the scientific literature from 1957 to the present, with additional substances going back to the early 1900s.
   rdf_uri_prefix: http://identifiers.org/cas/
   generic_urls:
-    - http://www.cas.org/expertise/cascontent/registry/index.html
+    - https://www.cas.org/cas-data/cas-registry
   entity_types:
     - type_name: entity
       type_id: BET:0000000
       example_id: CAS:58-08-2
+      example_url: https//
+      
 - database: CASGEN
   name: Catalog of Fishes genus database
   synonyms:
@@ -427,15 +429,6 @@
       url_syntax: http://purl.obolibrary.org/obo/CL_[example_id]
       example_id: CL:0000041
       example_url: http://purl.obolibrary.org/obo/CL_0000041
-- database: CO_125
-  name: Crop Ontology CGIAR Musa Anatomy
-  generic_urls:
-    - http://www.cropontology.org/ontology/CO_125:0000000/CGIAR_Musa_anatomy
-  entity_types:
-    - type_name: entity
-      type_id: BET:0000000
-      example_id: CO_125:0000002
-      example_url: http://www.cropontology.org/ontology/CO_125:0000000
 - database: Coffee-genome
   name: Coffee Genome Hub
   generic_urls:
@@ -888,16 +881,6 @@
       url_syntax: https://enzyme.expasy.org/EC/[example_id]
       example_id: 1.1.1.1
       example_url: https://enzyme.expasy.org/EC/1.1.1.1
-- database: EO_GIT
-  name: GitHub Issue Tracker for EO
-  generic_urls:
-    - https://github.com/Planteome/plant-environment-ontology
-  entity_types:
-    - type_name: entity
-      type_id: BET:0000000
-      url_syntax: https://github.com/Planteome/plant-environment-ontology/issues/[example_id]
-      example_id: EO_GIT:76
-      example_url: https://github.com/Planteome/plant-environment-ontology/issues/76
 - database: EuPathDB
   name: The Eukaryotic Pathogen Database
   generic_urls:
@@ -1984,36 +1967,6 @@
       id_syntax: \d{7}
       example_id: OBI:0000038
       example_url: http://purl.obolibrary.org/obo/OBI_0000038
-- database: OBO_SF_PO
-  name: Source Forge OBO Plant Ontology (PO) term request tracker
-  generic_urls:
-    - http://sourceforge.net/tracker/?func=browse&group_id=76834&atid=835555
-  entity_types:
-    - type_name: entity
-      type_id: BET:0000000
-      url_syntax: https://sourceforge.net/tracker/index.php?func=detail&aid=[example_id]&group_id=76834&atid=835555
-      example_id: OBO_SF_PO:3184921
-      example_url: https://sourceforge.net/tracker/index.php?func=detail&aid=3184921&group_id=76834&atid=835555
-- database: OBO_SF2_PO
-  name: Source Forge OBO Plant Ontology (PO) term request tracker
-  generic_urls:
-    - https://sourceforge.net/p/obo/plant-ontology-po-term-requests/
-  entity_types:
-    - type_name: entity
-      type_id: BET:0000000
-      url_syntax: http://sourceforge.net/p/obo/plant-ontology-po-term-requests/[example_id]
-      example_id: OBO_SF2_PO:500
-      example_url: http://sourceforge.net/p/obo/plant-ontology-po-term-requests/500
-- database: OBO_SF2_PECO
-  name: Source Forge OBO plant-experimental-conditions-ontology (PECO) term request tracker
-  generic_urls:
-    - https://sourceforge.net/p/obo/plant-environment-ontology-eo/
-  entity_types:
-    - type_name: entity
-      type_id: BET:0000000
-      url_syntax: https://sourceforge.net/p/obo/plant-environment-ontology-eo/[example_id]
-      example_id: OBO_SF2_PECO:89
-      example_url: https://sourceforge.net/p/obo/plant-environment-ontology-eo/89/
 - database: OMIM
   name: Mendelian Inheritance in Man
   synonyms:
@@ -2136,6 +2089,18 @@
       url_syntax: https://www.rcsb.org/structure/[example_id]
       example_id: PDB:1A4U
       example_url: https://www.rcsb.org/structure/1A4U
+- database: PECO
+  name: Plant Experimental Conditions Ontology
+  rdf_uri_prefix: http://purl.obolibrary.org/obo/PECO_
+  generic_urls:
+    - http://www.planteome.org/
+  entity_types:
+    - type_name: plant experimental condition
+      type_id: PECO:0007359
+      id_syntax: '[0-9]{7}'
+      url_syntax: http://browser.planteome.org/amigo/term/PECO:[example_id]
+      example_id: PECO:0007359
+      example_url: http://browser.planteome.org/amigo/term/PECO:0007359
 - database: PECO_GIT
   name: GitHub Issue Tracker for PECO
   generic_urls:
@@ -2285,6 +2250,16 @@
       url_syntax: https://github.com/Planteome/plant-ontology/issues/[example_id]
       example_id: PO_GIT:626
       example_url: https://github.com/Planteome/plant-ontology/issues/626
+- database: GO_GIT
+  name: GitHub Issue Tracker for GO
+  generic_urls:
+    - https://github.com/geneontology/go-ontology
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: https://github.com/geneontology/go-ontology/issues/[example_id]
+      example_id: GO_GIT:10340
+      example_url: https://github.com/geneontology/go-ontology/issues/10340
 - database: PO_REF
   name: Plant Ontology custom references
   generic_urls:
@@ -2295,13 +2270,6 @@
       url_syntax: http://planteome.org/po_ref/[example_id]
       example_id: PO_REF:00001
       example_url: http://planteome.org/po_ref/00001
-- database: POC
-  name: Plant Ontology Consortium
-  generic_urls:
-    - http://www.plantontology.org/
-  entity_types:
-    - type_name: entity
-      type_id: BET:0000000
 - database: PomBase
   name: PomBase
   rdf_uri_prefix: https://registry.identifiers.org/registry/pombase
@@ -2398,6 +2366,18 @@
       url_syntax: http://www.pseudomonas.com/feature/show?locus_tag=[example_id]
       example_id: PseudoCAP:PA4756
       example_url: http://www.pseudomonas.com/feature/show?locus_tag=PA4756
+- database: PSO
+  name: Plant Stress Ontology
+  rdf_uri_prefix: http://purl.obolibrary.org/obo/PSO_
+  generic_urls:
+    - http://www.planteome.org/
+  entity_types:
+    - type_name: plant anatomical entity
+      type_id: PSO:0000001
+      id_syntax: '[0-9]{7}'
+      url_syntax: http://browser.planteome.org/amigo/term/PSO:[example_id]
+      example_id: PSO:0000001
+      example_url: http://browser.planteome.org/amigo/term/PSO:0000001
 - database: PSO_GIT
   name: GitHub Issue Tracker for PSO
   generic_urls:
@@ -2644,7 +2624,7 @@
     - type_name: entity
       type_id: BET:0000000
 - database: SEED
-  name: The SEED;
+  name: The SEED
   description: Project to annotate the first 1000 sequenced genomes, develop detailed metabolic reconstructions, and construct the corresponding stoichiometric matrices
   generic_urls:
     - http://www.theseed.org
