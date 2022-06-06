@@ -2750,12 +2750,12 @@
       url_syntax: https://www.soybase.org/sbt/search/search_results.php?category=FeatureName&search_term=[example_id]
       example_id: Glyma18g02210
       example_url: https://www.soybase.org/sbt/search/search_results.php?category=FeatureName&search_term=Glyma18g02210
-- database: SOY_Ontology
+- database: SOY
   name: SoyBase
   generic_urls:
      - https://soybase.org/
   entity_types:
-    - type_name: anatomy, growth, traits
+    - type_name: anatomy, growth, trait ontology terms
       type_id: SOY:0000000
       id_syntax: '[0-9]{7}'
       url_syntax: https://www.soybase.org/amigo/amigo/term/SOY:[example_id]
