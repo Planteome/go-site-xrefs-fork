@@ -2740,7 +2740,7 @@
       url_syntax:  https://aussorgm.org.au/sorghum-qtl-atlas/qtl-details/?number=[example_id]
       example_id: Sorghum_QTL_Atlas:1704
       example_url:  https://aussorgm.org.au/sorghum-qtl-atlas/qtl-details/?number=1704
-- database: Soy_gene
+- database: SOY_gene
   name: SoyBase
   generic_urls:
     - https://soybase.org/
@@ -2750,6 +2750,17 @@
       url_syntax: https://www.soybase.org/sbt/search/search_results.php?category=FeatureName&search_term=[example_id]
       example_id: Glyma18g02210
       example_url: https://www.soybase.org/sbt/search/search_results.php?category=FeatureName&search_term=Glyma18g02210
+- database: SOY_Ontology
+  name: SoyBase
+generic_urls:
+     - https://soybase.org/
+  entity_types:
+    - type_name: anatomy, growth, traits
+      type_id: SOY:0000000
+      id_syntax: '[0-9]{7}'
+      url_syntax: https://www.soybase.org/amigo/amigo/term/SOY:[example_id]
+      example_id: SOY:0001342
+      example_url: https://www.soybase.org/amigo/amigo/term/SOY:0001342
 - database: SOY_QTL
   name: SoyBase
   generic_urls:
