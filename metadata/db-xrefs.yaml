@@ -2752,7 +2752,7 @@
       example_url: https://www.soybase.org/sbt/search/search_results.php?category=FeatureName&search_term=Glyma18g02210
 - database: SOY_Ontology
   name: SoyBase
-generic_urls:
+  generic_urls:
      - https://soybase.org/
   entity_types:
     - type_name: anatomy, growth, traits
