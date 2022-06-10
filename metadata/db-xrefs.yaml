@@ -2767,6 +2767,7 @@
     - https://soybase.org/
   entity_types:
     - type_name: entity
+      id_syntax: '[A-Za-z0-9_ -]*'
       type_id: BET:0000000
       url_syntax: https://www.soybase.org/sbt/search/search_results.php?category=QTLName&search_term=[example_id]
       example_id: Seedling, abnormal+1-1
