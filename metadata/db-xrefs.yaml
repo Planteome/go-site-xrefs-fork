@@ -1108,6 +1108,17 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
+- database: GG_QTL
+  name: GrainGenes
+  generic_urls:
+    - https://wheat.pw.usda.gov/GG3/
+  entity_types:
+    - type_name: QTL
+      type_id: PR:000000001
+      id_syntax: '[A-Z][0-9][A-Z0-9]{3}[0-9]'
+      url_syntax: https://wheat.pw.usda.gov/cgi-bin/GG3/report.cgi?class=qtl&name=&id=[example_id]
+      example_id: GG_QTL:385
+      example_url: https://wheat.pw.usda.gov/cgi-bin/GG3/report.cgi?class=qtl&name=&id=385
 - database: GR
   name: Gramene
   generic_urls:
