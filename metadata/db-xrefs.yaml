@@ -992,9 +992,9 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
-      url_syntax: https://www.genesys-pgr.org/acn/search?q=[example_id]
-      example_id: Genesys-pgr:CM1015-16
-      example_url: https://www.genesys-pgr.org/acn/search?q=CM1015-16
+      url_syntax: https://www.genesys-pgr.org/[example_id]
+      example_id: Genesys-pgr:10.18730/PB37~
+      example_url: https://www.genesys-pgr.org/10.18730/PB37~
 - database: GEO
   name: NCBI Gene Expression Omnibus
   generic_urls:
