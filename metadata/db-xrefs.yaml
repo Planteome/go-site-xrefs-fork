@@ -2571,15 +2571,15 @@
       example_id: RHEA:25811
       example_url: http://www.rhea-db.org/reaction.xhtml?id=25811
 - database: RiceSES
-  name: Rice Knowledge Bank
+  name: Rice Knowledge Bank Standard Evaluation System
   generic_urls:
     - http://www.ncbi.nlm.nih.gov/PubMed/
   entity_types:
     - type_name: entity
       type_id: BET:0000000
-      url_syntax: http://www.knowledgebank.irri.org/extension/crop-damage-diseases/[example_id].html
-      example_id: RiceSES:bakanae-diseases-bak
-      example_url: http://www.knowledgebank.irri.org/extension/crop-damage-diseases/bakanae-diseases-bak.html
+      url_syntax: http://ricepedia.blogspot.com/2018/04/2013-irri-ses-standard-evaluation.html
+      example_id: RiceSES:SES
+      example_url: http://ricepedia.blogspot.com/2018/04/2013-irri-ses-standard-evaluation.html
 - database: RNAcentral
   name: RNAcentral
   description: An international database of ncRNA sequences
