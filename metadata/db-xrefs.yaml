@@ -2110,6 +2110,16 @@
       url_syntax: https://www.rcsb.org/structure/[example_id]
       example_id: PDB:1A4U
       example_url: https://www.rcsb.org/structure/1A4U
+- database: PDO_GIT
+  name: GitHub Issue Tracker for PDO
+  generic_urls:
+    - https://github.com/Planteome/plant-disease-ontology/issues
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: https://github.com/Planteome/plant-disease-ontology/issues/[example_id]
+      example_id: PDO_GIT:76
+      example_url: https://github.com/Planteome/plant-disease-ontology/issues/76
 - database: PECO
   name: Plant Experimental Conditions Ontology
   rdf_uri_prefix: http://purl.obolibrary.org/obo/PECO_
