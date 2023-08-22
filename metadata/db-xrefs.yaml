@@ -881,6 +881,16 @@
       url_syntax: https://enzyme.expasy.org/EC/[example_id]
       example_id: 1.1.1.1
       example_url: https://enzyme.expasy.org/EC/1.1.1.1
+- database: EOL
+  name: Encyclopedia of Life
+  generic_urls:
+    - https://eol.org/pages/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: https://eol.org/pages/[example_id]
+      example_id: 1002512
+      example_url: https://eol.org/pages/976773
 - database: EuPathDB
   name: The Eukaryotic Pathogen Database
   generic_urls:
