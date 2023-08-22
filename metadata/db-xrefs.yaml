@@ -889,7 +889,7 @@
     - type_name: entity
       type_id: BET:0000000
       url_syntax: https://eol.org/pages/[example_id]
-      example_id: 1002512
+      example_id: 976773
       example_url: https://eol.org/pages/976773
 - database: EuPathDB
   name: The Eukaryotic Pathogen Database
