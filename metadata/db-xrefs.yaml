@@ -1217,9 +1217,9 @@
   entity_types:
     - type_name: germplasm
       type_id: BET:0000000
-      url_syntax: https://www.genesys-pgr.org/acn/search2?q=IRGC+[example_id]
+      url_syntax: https://gringlobal.irri.org/gringlobal/accessiondetail?id=[example_id]
       example_id: GRIMS:90637
-      example_url: https://www.genesys-pgr.org/acn/search2?q=IRGC+90637
+      example_url: https://gringlobal.irri.org/gringlobal/accessiondetail?id=90637
 - database: GRIN
   name: Germplasm Resources Information Network
   synonyms:
