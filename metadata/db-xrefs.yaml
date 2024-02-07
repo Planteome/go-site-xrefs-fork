@@ -2397,18 +2397,6 @@
       url_syntax: http://www.pseudomonas.com/feature/show?locus_tag=[example_id]
       example_id: PseudoCAP:PA4756
       example_url: http://www.pseudomonas.com/feature/show?locus_tag=PA4756
-- database: PSO
-  name: Plant Stress Ontology
-  rdf_uri_prefix: http://purl.obolibrary.org/obo/PSO_
-  generic_urls:
-    - http://www.planteome.org/
-  entity_types:
-    - type_name: plant anatomical entity
-      type_id: PSO:0000001
-      id_syntax: '[0-9]{7}'
-      url_syntax: http://browser.planteome.org/amigo/term/PSO:[example_id]
-      example_id: PSO:0000001
-      example_url: http://browser.planteome.org/amigo/term/PSO:0000001
 - database: PSO_GIT
   name: GitHub Issue Tracker for PSO
   generic_urls:
