@@ -63,7 +63,7 @@
     - type_name: entity
       type_id: BET:0000000
       url_syntax: https://www.apsnet.org/edcenter/resources/commonnames/Pages/[example_id].aspx
-      example_id: APSNET:corn
+      example_id: APSNET:Corn
       example_url: https://www.apsnet.org/edcenter/resources/commonnames/Pages/Corn.aspx
 - database: APweb
   name: Angiosperm Phylogeny Website
