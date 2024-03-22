@@ -2007,6 +2007,18 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
+- database: orcid
+  name: Open Researcher and Contributor ID
+  description: ORCID (Open Researcher and Contributor ID) is an open, non-profit, community-based effort to create and maintain a registry of unique identifiers for individual researchers.
+  generic_urls:
+    - https://orcid.org/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      id_syntax: ^\d{4}-\d{4}-\d{4}-\d{3}(\d|X)$
+      url_syntax: https://orcid.org/[example_id]
+      example_id: orcid:0000-0003-4423-4370
+      example_url: https://orcid.org/0000-0003-4423-4370
 - database: PAINT_REF
   name: Phylogenetic Annotation INference Tool References
   generic_urls:
