@@ -2489,9 +2489,9 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
-      url_syntax: https://rapdb.dna.affrc.go.jp/viewer/gene_detail/irgsp1?name=[example_id]
+      url_syntax: https://rapdb.dna.affrc.go.jp/locus?name=[example_id]
       example_id: RAP-DB:Os01t0100600-01
-      example_url: https://rapdb.dna.affrc.go.jp/viewer/gene_detail/irgsp1?name=Os01t0100600-01
+      example_url: https://rapdb.dna.affrc.go.jp/locus?name=Os01t0100600
 - database: Reactome
   name: Reactome - a curated knowledgebase of biological pathways
   synonyms:
