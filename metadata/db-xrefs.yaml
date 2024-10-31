@@ -1862,7 +1862,7 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
-      url_syntax: https://www.mirbase.org/hairpin/?action=2&wert=[example_id]
+      url_syntax: https://www.mirbase.org/hairpin/[example_id]
       example_id: MI0000653
       example_url: https://www.mirbase.org/hairpin/MI0000653
 - database: MITRE
