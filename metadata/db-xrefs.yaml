@@ -1855,6 +1855,16 @@
       url_syntax: http://mips.gsf.de/cgi-bin/proj/funcatDB/search_advanced.pl?action=2&wert=[example_id]
       example_id: MIPS_funcat:11.02
       example_url: http://mips.gsf.de/cgi-bin/proj/funcatDB/search_advanced.pl?action=2&wert=11.02
+- database: miRBase
+  name: miRBase: the microRNA database
+  generic_urls:
+    - https://www.mirbase.org/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: https://www.mirbase.org/hairpin/?action=2&wert=[example_id]
+      example_id: MI0000653
+      example_url: https://www.mirbase.org/hairpin/MI0000653
 - database: MITRE
   name: The MITRE Corporation
   generic_urls:
