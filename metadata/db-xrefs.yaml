@@ -2037,7 +2037,7 @@
     - type_name: gene
       type_id: BET:0000000
       id_syntax: '[A-Z][0-9][A-Z0-9]{3}[0-9]'
-      url_syntax: https://shigen.nig.ac.jp/rice/oryzabase/gene/detail/=[example_id]
+      url_syntax: https://shigen.nig.ac.jp/rice/oryzabase/gene/detail/[example_id]
       example_id: OB_Gene:147
       example_url: https://shigen.nig.ac.jp/rice/oryzabase/gene/detail/147
 - database: PAINT_REF
