@@ -2029,7 +2029,7 @@
       url_syntax: https://orcid.org/[example_id]
       example_id: orcid:0000-0003-4423-4370
       example_url: https://orcid.org/0000-0003-4423-4370
-- database: OB_Gene
+- database: Oryzabase
   name: Oryzabase
   generic_urls:
     - https://shigen.nig.ac.jp/rice/oryzabase/
@@ -2038,7 +2038,7 @@
       type_id: BET:0000000
       id_syntax: '[A-Z][0-9][A-Z0-9]{3}[0-9]'
       url_syntax: https://shigen.nig.ac.jp/rice/oryzabase/gene/detail/[example_id]
-      example_id: OB_Gene:147
+      example_id: Oryzabase:147
       example_url: https://shigen.nig.ac.jp/rice/oryzabase/gene/detail/147
 - database: PAINT_REF
   name: Phylogenetic Annotation INference Tool References
