@@ -1126,7 +1126,7 @@
     - type_name: QTL
       type_id: PR:000000001
       id_syntax: '[A-Z][0-9][A-Z0-9]{3}[0-9]'
-      url_syntax: https://https://graingenes.org/cgi-bin/GG3/report.cgi?class=qtl&name=&id=[example_id]
+      url_syntax: https://graingenes.org/cgi-bin/GG3/report.cgi?class=qtl&name=&id=[example_id]
       example_id: GG_QTL:385
       example_url: https://https://graingenes.org/cgi-bin/GG3/report.cgi?class=qtl&name=&id=385
 - database: GG_REF
