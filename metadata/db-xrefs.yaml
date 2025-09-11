@@ -278,13 +278,13 @@
   description: CAS REGISTRY is the most authoritative collection of disclosed chemical substance information, containing more than 54 million organic and inorganic substances and 62 million sequences. CAS REGISTRY covers substances identified from the scientific literature from 1957 to the present, with additional substances going back to the early 1900s.
   rdf_uri_prefix: http://identifiers.org/cas/
   generic_urls:
-    - https://www.cas.org/cas-data/cas-registry
+    - https://commonchemistry.cas.org/
   entity_types:
     - type_name: entity
       type_id: BET:0000000
+      url_syntax: https://commonchemistry.cas.org/results?q=[example_id]
       example_id: CAS:58-08-2
-      example_url: https//
-      
+      example_url: https://commonchemistry.cas.org/results?q=58-08-2
 - database: CASGEN
   name: Catalog of Fishes genus database
   synonyms:
