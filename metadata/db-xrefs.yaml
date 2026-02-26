@@ -2842,9 +2842,9 @@
   entity_types:
     - type_name: entity
       type_id: BET:0000000
-      url_syntax: https://www.soybase.org/sbt/search/search_results.php?category=Soybase_ID&search_term=[example_id]
+      url_syntax: https://www.legacy.soybase.org/sbt/search/div_search_results.php?category=Soybase_ID&search_term=[example_id]
       example_id: SOY ref:SoyBase6597900
-      example_url: https://www.soybase.org/sbt/search/search_results.php?category=Soybase_ID&search_term=SoyBase3142000126
+      example_url: https://www.legacy.soybase.org/sbt/search/div_search_results.php?category=Soybase_ID&search_term=SoyBase3142000126
 - database: SUPERFAMILY
   name: SUPERFAMILY protein annotation database
   description: A database of structural and functional protein annotations for completely sequenced genomes
